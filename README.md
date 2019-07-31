@@ -9,6 +9,7 @@ For the enterprises with multiple subscriptions in Azure cloud assigning the per
 Using “Management Groups” you could assign the permission to the group of subscriptions that are joined to the management group, but that great Azure services currently has a limitation that don’t let you assign custom role based access to the subscriptions.<br />
 
 As of security best practice you always need to assign the permission to the engineers based on minimum required level of permissions, using built-in RBAC there would some scenarios that built-in RBAC provide higher level of privilege than needed and you will need to create the custom RBAC based on your needs.
+<br />
 
 **Purpose**:
 
