@@ -1,4 +1,7 @@
-# this script wrote by Farshad Rahaei
+# this script wrote by Farshad Rahaei  
+# www.linkedin.com/in/farshadrahaei 
+# https://github.com/farshadrahaei/
+
 write-host "This script update Azure AD user information, user will be automatically granted proper permission based on group and title information entered here " -ForegroundColor Red -BackgroundColor Yellow
 write-host "Please enter the information carefully !!!" -ForegroundColor Red 
 write-host " "
