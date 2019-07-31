@@ -5,12 +5,15 @@ PowerShell scripts to Automate Identity Access Managment on Azure
 
 **Introduction**:
 
-For the enterprises with multiple subscriptions in Azure cloud assigning the permission to the engineers working on the Azure resources could be challenging as you may need to assign the same/different level of permissions to multiple new/existing subscriptions either manually or using “Management Groups” and “Azure Blueprints”. Using “Management Groups” you could assign the permission to the group of subscriptions that are joined to the management group, but that great Azure services currently has a limitation that don’t let you assign custom role based access to the subscriptions.
+For the enterprises with multiple subscriptions in Azure cloud assigning the permission to the engineers working on the Azure resources could be challenging as you may need to assign the same/different level of permissions to multiple new/existing subscriptions either manually or using “Management Groups” and “Azure Blueprints”. <br />
+Using “Management Groups” you could assign the permission to the group of subscriptions that are joined to the management group, but that great Azure services currently has a limitation that don’t let you assign custom role based access to the subscriptions.<br />
+
 As of security best practice you always need to assign the permission to the engineers based on minimum required level of permissions, using built-in RBAC there would some scenarios that built-in RBAC provide higher level of privilege than needed and you will need to create the custom RBAC based on your needs.
 
 **Purpose**:
 
-Using Automation and PowerShell scripting we can automate process of assigning the permissions to the user/groups and keep consistency to assign the same level of permission to the new subscriptions.
+Using Automation and PowerShell scripting we can automate process of assigning the permissions to the user/groups and keep consistency to assign the same level of permission to the new subscriptions.<br />
+
 In this tutorial I will explain fully automated Azure Identity Access Management scenario with script examples:
 
 Part 1: Assign the users automatically to the Azure AD groups using dynamic membership roles
