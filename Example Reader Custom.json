@@ -1,0 +1,23 @@
+{
+  "Name": "Example Reader Custom",
+  "IsCustom": true,
+  "Description": "Ready-Only access for Example Team",
+  "Actions": [
+    "*/read",
+    "Microsoft.Storage/*/read",
+    "Microsoft.Network/*/read",
+    "Microsoft.Compute/*/read",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.ResourceHealth/availabilityStatuses/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Insights/alertRules/*/read",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [
+
+  ],
+  "AssignableScopes": [
+    "/subscriptions/43df8b-5f75-4fc30-8asd8-980796b24"
+
+  ]
+}
