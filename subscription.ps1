@@ -1,4 +1,6 @@
-
+# this script wrote by Farshad Rahaei  
+# www.linkedin.com/in/farshadrahaei 
+# https://github.com/farshadrahaei/
 
 $SubID = Read-Host 'Please enter New Subscription ID'
 $Sub= “/subscriptions/$SubID"
