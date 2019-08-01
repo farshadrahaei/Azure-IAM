@@ -1,7 +1,7 @@
 # Azure-IAM
 PowerShell scripts to Automate Identity Access Managment on Azure
 
-<h1>Automation on Azure Identity Access Management using PowerShell scripting</h1>
+<h1>Automation on Azure using Object Oriented Programming</h1>
 
 **Introduction**:
 
